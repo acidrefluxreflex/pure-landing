@@ -42,7 +42,7 @@ export default function StrengthsSection() {
   return (
     <div className="grid grid-cols-3 gap-6 p-6">
       {contentItems.map((item, index) => (
-        <div key={index} className=" p-4  ">
+        <div key={index} className="p-4">
           <div className="flex items-center my-3">
             <img
               src={item.icon}

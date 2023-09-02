@@ -2,7 +2,7 @@ import React from "react";
 
 export default function FeatureSection() {
   return (
-    <div className="md:flex-row items-center justify-center h-screen">
+    <div className="z-1 md:flex-row items-center justify-center h-screen">
       <div className="flex justify-center space-x-6 my-9">
         {renderCard("w-7xl", "https://via.placeholder.com/1280x300")}
       </div>
@@ -16,7 +16,7 @@ export default function FeatureSection() {
 
 function renderCard(width: string, imageSrc: string) {
   return (
-    <div className={`card ${width} bg-base-100 shadow-xl image-full`}>
+    <div className={`z-1 card ${width} bg-base-100 shadow-l image-full`}>
       <figure>
         <img src={imageSrc} alt="Shoes" />
       </figure>

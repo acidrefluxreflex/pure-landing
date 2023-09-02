@@ -4,7 +4,8 @@ import StrengthsSection from "@/components/sections/StrengthsSection";
 import FAQSection from "@/components/sections/FAQSection";
 import TestimonialSection from "@/components/sections/TestimonialSection";
 import OverviewSection from "@/components/sections/OverviewSection";
-import GetStartSection from "@/components/sections/GetStartSecton";
+import GetStartSection from "@/components/sections/GetStartSection";
+import ContactSection from "@/components/sections/ContactSection";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <TestimonialSection />
         <FAQSection />
         <GetStartSection />
+        <ContactSection />
       </div>
     </main>
   );

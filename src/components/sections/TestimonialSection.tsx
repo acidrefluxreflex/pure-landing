@@ -4,8 +4,6 @@ export default function TestimonialSection() {
   return (
     <div className="container my-24 mx-auto md:px-6">
       <section className="mb-32 text-center">
-        <h2 className="mb-12 text-3xl font-bold">Testimonials</h2>
-
         <div className="grid gap-x-6 md:grid-cols-3 lg:gap-x-12">
           {userCard()}
           {userCard()}
@@ -22,13 +20,16 @@ function userCard() {
       <div className="mb-6 flex justify-center">
         <img
           src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).jpg"
-          className="w-32 rounded-full shadow-lg dark:shadow-black/20"
+          className="w-20 h-20 rounded-full shadow-lg dark:shadow-black/20"
         />
+        <div className="ml-4">
+          <h5 className="text-lg font-bold">Maria Smantha</h5>
+          <h6 className="font-medium text-primary dark:text-primary-400">
+            Web Developer
+          </h6>
+        </div>
       </div>
-      <h5 className="mb-2 text-lg font-bold">Maria Smantha</h5>
-      <h6 className="mb-4 font-medium text-primary dark:text-primary-400">
-        Web Developer
-      </h6>
+
       <p className="mb-4">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
         officiis hic tenetur quae quaerat ad velit ab hic.

@@ -8,31 +8,31 @@ export default function StrengthsSection() {
         "Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi.",
     },
     {
-      icon: "https://via.placeholder.com/800x300",
+      icon: "https://via.placeholder.com/200x200",
       title: "Feature 2",
       description:
         "Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi.",
     },
     {
-      icon: "https://via.placeholder.com/800x300",
+      icon: "https://via.placeholder.com/200x200",
       title: "Feature 3",
       description:
         "Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi.",
     },
     {
-      icon: "https://via.placeholder.com/800x300",
+      icon: "https://via.placeholder.com/200x200",
       title: "Feature 4",
       description:
         "Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi.",
     },
     {
-      icon: "https://via.placeholder.com/800x300",
+      icon: "https://via.placeholder.com/200x200",
       title: "Feature 5",
       description:
         "Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi.",
     },
     {
-      icon: "https://via.placeholder.com/800x300",
+      icon: "https://via.placeholder.com/200x200",
       title: "Feature 6",
       description:
         "Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi.",
@@ -42,7 +42,7 @@ export default function StrengthsSection() {
   return (
     <div className="grid grid-cols-3 gap-6 p-6">
       {contentItems.map((item, index) => (
-        <div key={index} className="bg-white p-4 rounded-lg shadow-md">
+        <div key={index} className=" p-4  ">
           <div className="flex items-center my-3">
             <img
               src={item.icon}

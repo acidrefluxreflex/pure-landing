@@ -1,3 +1,6 @@
+
+import type { Metadata } from 'next'
+
 import HeroSection from "@/components/sections/HeroSection";
 import FeatureSection from "@/components/sections/FeatureSection";
 import StrengthsSection from "@/components/sections/StrengthsSection";
@@ -6,6 +9,12 @@ import TestimonialSection from "@/components/sections/TestimonialSection";
 import OverviewSection from "@/components/sections/OverviewSection";
 import GetStartSection from "@/components/sections/GetStartSection";
 import ContactSection from "@/components/sections/ContactSection";
+
+
+export const metadata: Metadata = {
+  title: 'Zenboot',
+  description: 'Block Sexual Content on the Web',
+}
 
 export default function Home() {
   return (

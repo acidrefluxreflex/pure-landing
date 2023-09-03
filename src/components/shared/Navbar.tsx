@@ -15,6 +15,7 @@ const Navbar: React.FC = () => {
         </div>
       </div>
 
+      {/*
       <div className="flex-none">
         <nav className="menu menu-horizontal px-1 font-medium">
           <div className="hidden lg:flex">
@@ -77,6 +78,7 @@ const Navbar: React.FC = () => {
           </div>
         </nav>
       </div>
+      */}
     </div>
   );
 };

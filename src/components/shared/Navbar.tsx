@@ -10,7 +10,7 @@ const Navbar: React.FC = () => {
       <div className="m-0 flex-1 px-1 pt-1">
         <div style={{ fontFamily: "Futura" }}>
           <Link href="/" className="ml-3 text-3xl font-medium">
-            Eveki
+          Zeboot
           </Link>
         </div>
       </div>

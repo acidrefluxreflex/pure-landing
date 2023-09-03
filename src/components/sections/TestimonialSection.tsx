@@ -17,12 +17,12 @@ export default function TestimonialSection() {
 function userCard() {
   return (
     <div className="mb-12 md:mb-0">
-      <div className="mb-6 flex justify-center">
+      <div className="mb-6 flex justify-center items-center">
         <img
           src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).jpg"
-          className="w-20 h-20 rounded-full shadow-lg dark:shadow-black/20"
+          className="w-10 h-10 rounded-full shadow-lg dark:shadow-black/20"
         />
-        <div className="ml-4">
+        <div className="ml-4 ">
           <h5 className="text-lg font-bold">Maria Smantha</h5>
           <h6 className="font-medium text-primary dark:text-primary-400">
             Web Developer

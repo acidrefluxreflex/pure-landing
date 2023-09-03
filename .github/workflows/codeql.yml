@@ -80,7 +80,6 @@ jobs:
       uses: github/codeql-action/analyze@v2
       with:
         category: "/language:${{matrix.language}}"
-        
-    - name: Lighthouse Check
-      uses: foo-software/lighthouse-check-action@v10.0.0
+
+  
             

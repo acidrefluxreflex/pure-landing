@@ -12,7 +12,7 @@ export default function ContactSection() {
         <input type="hidden" name="form-name" value="contact" />
         <div className="space-y-1">
           <label htmlFor="yourname" className="font-medium text-gray-700">
-            お名前
+            Name
           </label>{" "}
           <br />
           <input
@@ -25,7 +25,7 @@ export default function ContactSection() {
         <div className="space-y-1">
           <label htmlFor="youremail" className="font-medium text-gray-700">
             {" "}
-            メールアドレス<span className="text-red-600">*</span>
+            Email<span className="text-red-600">*</span>
           </label>{" "}
           <br />
           <input
@@ -39,7 +39,7 @@ export default function ContactSection() {
         <div className="space-y-1">
           <label htmlFor="yourmessage" className="font-medium text-gray-700">
             {" "}
-            お問い合わせ本文<span className="text-red-600">*</span>
+            Message<span className="text-red-600">*</span>
           </label>{" "}
           <br />
           <textarea

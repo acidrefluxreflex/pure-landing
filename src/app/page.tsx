@@ -1,5 +1,4 @@
-
-import type { Metadata } from 'next'
+import type { Metadata } from "next";
 
 import HeroSection from "@/components/sections/HeroSection";
 import FeatureSection from "@/components/sections/FeatureSection";
@@ -10,22 +9,22 @@ import OverviewSection from "@/components/sections/OverviewSection";
 import GetStartSection from "@/components/sections/GetStartSection";
 import ContactSection from "@/components/sections/ContactSection";
 
-
 export const metadata: Metadata = {
-  title: 'Zenboot',
-  description: 'Block Sexual Content on the Web',
-}
+  title: "Zeboot",
+  description: "Block Sexual Content on the Web",
+};
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between ">
       <HeroSection />
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
+      <div className="lg:max-w-7xl md:max-w-3xl mx-auto px-4 sm:px-6 md:px-8">
         <OverviewSection />
         <StrengthsSection />
         <FeatureSection />
-        <TestimonialSection />
+        <FAQSection />
         <GetStartSection />
+        <TestimonialSection />
         <ContactSection />
       </div>
     </main>

@@ -21,7 +21,7 @@ export default function FAQSection() {
 function questionCell() {
   return (
     <div className="collapse collapse-arrow">
-      <input type="checkbox" defaultChecked/>
+      <input type="checkbox" />
       <div className="collapse-title text-xl font-medium">
         Click to open this one and close others
       </div>

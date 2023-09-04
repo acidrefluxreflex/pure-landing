@@ -4,7 +4,7 @@ export default function TestimonialSection() {
   return (
     <div className="container my-24 mx-auto md:px-6">
       <section className="mb-32 text-center">
-        <div className="grid gap-x-6 md:grid-cols-3 lg:gap-x-12">
+        <div className="lg:flex">
           {userCard()}
           {userCard()}
           {userCard()}
@@ -30,19 +30,9 @@ function userCard() {
         </div>
       </div>
 
-      <p className="mb-4">
+      <p className="mb-4 lg:ma-w-1/2 lg:text-sm max-w-1/4 text-sm">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
         officiis hic tenetur quae quaerat ad velit ab hic.
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 96 960 960"
-          className="inline-block w-6"
-        >
-          <path
-            fill="currentColor"
-            d="M580 556h160V396H580v160Zm-360 0h160V396H220v160Zm406 220 80-160H520V336h280v288l-76 152h-98Zm-360 0 80-160H160V336h280v288l-76 152h-98Zm34-300Zm360 0Z"
-          />
-        </svg>
       </p>
       <div className="rating">
         <input type="radio" name="rating-1" className="mask mask-star" />

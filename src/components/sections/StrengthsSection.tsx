@@ -40,7 +40,7 @@ export default function StrengthsSection() {
   ];
 
   return (
-    <div className="grid grid-cols-3 gap-6 p-6">
+    <div className="grid lg:grid-cols-3 grid-cols-2 gap-6 lg:p-6 p-3">
       {contentItems.map((item, index) => (
         <div key={index} className="p-4">
           <div className="flex items-center  my-3 ">
@@ -49,13 +49,13 @@ export default function StrengthsSection() {
               alt={`Icon for ${item.title}`}
               className="w-10 h-10"
             />
-            <h2 className="text-xl font-semibold  ml-2 flex items-center">
+            <h2 className="lg:text-xl text-md font-semibold  ml-2 flex items-center">
               {" "}
               {/* Added 'flex' and 'items-center' class */}
               {item.title}
             </h2>
           </div>
-          <p className="text-gray-600 text-sm">{item.description}</p>
+          <p className="text-gray-600 lg:text-sm text-xs">{item.description}</p>
         </div>
       ))}
     </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 export default function StrengthsSection() {
   const contentItems = [
     {
@@ -44,10 +45,12 @@ export default function StrengthsSection() {
       {contentItems.map((item, index) => (
         <div key={index} className="p-4">
           <div className="flex items-center  my-3 ">
-            <img
+            <Image
               src={item.icon}
               alt={`Icon for ${item.title}`}
               className="w-10 h-10"
+              width={100}
+              height={100}
             />
             <h2 className="lg:text-xl text-md font-semibold  ml-2 flex items-center">
               {" "}

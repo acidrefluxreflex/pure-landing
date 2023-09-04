@@ -18,7 +18,12 @@ export default function HeroSection() {
               <h1 className="text-9xl font-medium ">Zeboot</h1>
             </div>
             <div className="mb-8 px-2 text-lg font-medium">
-              <p>Tired of stumbling upon explicit and inappropriate content online? Look no further! SafeGuard is your go-to solution for filtering out explicit content and ensuring a safer online experience.</p>
+              <p>
+                Tired of stumbling upon explicit and inappropriate content
+                online? Look no further! SafeGuard is your go-to solution for
+                filtering out explicit content and ensuring a safer online
+                experience.
+              </p>
               <button className="btn btn-accent text-white my-5">
                 <a href="https://textcheckai.page.link/toapp">Get Clean Life</a>
               </button>
@@ -38,14 +43,20 @@ export default function HeroSection() {
           id="SMARTPHONE"
           className="flex flex-row hero-content justify-start text-left text-neutral-content"
         >
-          <div className="container max-w-md pb-56">
-            <div style={{ fontFamily: "Sifonn" }}>
-              <p className="p-2">AIキャラクター制作アプリ</p>
-              <h1 className="text-8xl font-bold text-white ">Eveki</h1>
+          <div className="container w-md pb-56 px-5">
+            <div style={{ fontFamily: "Futura" }}>
+              <p className="py-2">Sexual Content Blocker</p>
+              <h1 className="text-5xl font-bold text-white">Zeboot</h1>
             </div>
-            <div className="mb-8 px-2 text-lg font-medium">
-              <p>誰でも自分だけのAIを気軽に</p>
-              <p>カスタマイズする世界へ</p>
+            <div className="mb-8 text-sm font-medium">
+              <p>
+                Tired of stumbling upon explicit and inappropriate content
+                online?
+                <br />
+                Look no further! SafeGuard is your go-to solution for filtering
+                out explicit content and ensuring a safer online experience.
+              </p>
+
               <button className="btn-outline btn my-5">ダウンロード</button>
             </div>
           </div>

@@ -7,12 +7,12 @@ export default function HeroSection() {
         id="DESKTOP"
         className="hero hidden min-h-screen flex-row justify-start text-left text-neutral-content lg:flex"
         style={{
-          backgroundImage: "url(https://via.placeholder.com/2980x1000)",
+          backgroundImage: "url(/images/landing/HeroBack.jpg)",
           width: "100%",
         }}
       >
         <div className="hero-content ml-64 pr-[430px]">
-          <div className="container max-w-md text-black">
+          <div className="container max-w-md text-white">
             <p className="p-2 text-2xl">Sexual Content Blocker</p>
             <div className="container " style={{ fontFamily: "Futura" }}>
               <h1 className="text-9xl font-medium ">Zeboot</h1>

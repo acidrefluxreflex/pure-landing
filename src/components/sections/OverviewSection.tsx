@@ -18,11 +18,11 @@ export default function OverviewSection() {
 
       <div className="md:w-1/2 flex justify-center">
         <Image
-          src="https://via.placeholder.com/500x500"
+          src="/images/landing/eddy-billard.webp"
           alt="アプリケーションの画像"
-          className="lg:w-full w-[200px] h-auto"
-          width={400}
-          height={400}
+          className="lg:w-[500px] w-[200px] h-auto rounded-xl shadow-md"
+          width={2000}
+          height={2000}
         />
       </div>
     </div>

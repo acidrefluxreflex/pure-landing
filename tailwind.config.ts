@@ -17,10 +17,11 @@ const config: Config = {
   },
   plugins: [require("daisyui")],
   daisyui: {
+
     themes: [
       {
         mytheme: {
-          primary: "#76428C",
+          primary: "#707C74",
 
           sumi:"#0C0C0C",
           
@@ -30,7 +31,7 @@ const config: Config = {
 
           neutral: "#0C0C0C",
 
-          "base-100": "#2A303C",
+       
 
           info: "#3ABFF8",
 

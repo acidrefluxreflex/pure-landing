@@ -43,7 +43,7 @@ function userCard(
   imageSrc: string
 ) {
   return (
-    <div className="card bg-slate-500 lg:w-[400px] md:flex-row mb-12 md:mb-0 shadow-xl min-h-[200px]">
+    <div className="card bg-[#F2F2F7] lg:w-[400px] md:flex-row mb-12 md:mb-0 shadow-lg min-h-[200px]">
       <div className="card-body ">
         <div className="flex  items-center">
           <div className="avatar">

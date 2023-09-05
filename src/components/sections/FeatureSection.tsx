@@ -7,7 +7,7 @@ export default function FeatureSection() {
       <div className="flex justify-center space-x-6 my-9 md:mx-0 mx-5">
         {renderCard(
           "md:min-w-7xl min-w-[320px] md:h-[300px] h-[300px]",
-          "https://via.placeholder.com/1280x300",
+          "/images/landing/ZenGarden1280.jpg",
           1280,
           300
         )}
@@ -15,14 +15,14 @@ export default function FeatureSection() {
       <div className="lg:flex lg:space-x-9 md:mx-0 mx-5 md:space-y-0 space-y-6 justify-center items-center ">
         {renderCard(
           "md:min-w-[800px] min-w-[320px] md:h-[300px] h-[300px]",
-          "https://via.placeholder.com/800x300",
+          "/images/landing/ZenGarden800.webp",
           800,
           300
         )}
 
         {renderCard(
           "md:min-w-96 min-w-[320px] md:h-[300px] h-[300px]",
-          "https://via.placeholder.com/380x300",
+          "/images/landing/ZenGarden380.webp",
           380,
           300
         )}

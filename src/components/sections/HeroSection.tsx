@@ -35,7 +35,7 @@ export default function HeroSection() {
       <div
         className="hero mb-6 min-h-screen sm:hidden"
         style={{
-          backgroundImage: "url(/images/backSmart.webp)",
+          backgroundImage: "url(/images/landing/BackSmart.webp)",
           width: "100%",
         }}
       >

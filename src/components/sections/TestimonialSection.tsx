@@ -11,7 +11,8 @@ export default function TestimonialSection() {
               "Emily",
               "Teacher",
               "I've been using 'zeboot' for a while now, and it's been a game-changer for me. As a teacher, maintaining focus and a healthy online environment is crucial. ",
-              "/images/landing/Emily.webp"
+              "/images/landing/Emily.webp",
+              4
             )}
           </div>
           <div className="mx-3">
@@ -19,7 +20,8 @@ export default function TestimonialSection() {
               "David",
               "Software Developer",
               "'zeboot' has become an essential part of my digital life. I spend a lot of time online, and it's easy to get distracted. This app not only filters out explicit content but also allows me to stay focused.",
-              "/images/landing/David.webp"
+              "/images/landing/David.webp",
+              5
             )}
           </div>
           <div className="md:mx-0 mx-3">
@@ -27,7 +29,8 @@ export default function TestimonialSection() {
               "Sarah",
               "Marketing Manager",
               "I can't thank 'zeboot' enough for keeping me productive and safeguarding my online experience. As a marketing manager, I need a clear mind to come up with creative ideas. ",
-              "/images/landing/Sarah.webp"
+              "/images/landing/Sarah.webp",
+              5
             )}
           </div>
         </div>
@@ -40,8 +43,25 @@ function userCard(
   name: string,
   job: string,
   comment: string,
-  imageSrc: string
+  imageSrc: string,
+  rating: number
 ) {
+  let starIconSrc = "";
+
+  if (rating >= 1 && rating < 2) {
+    starIconSrc = "/images/icons/star_FILL.svg";
+  } else if (rating >= 2 && rating < 3) {
+    starIconSrc = "/images/icons/star_FILL.svg";
+  } else if (rating >= 3 && rating < 4) {
+    starIconSrc = "/images/icons/star_FILL.svg";
+  } else if (rating >= 4 && rating < 5) {
+    starIconSrc = "/images/icons/star_half.svg";
+  } else if (rating === 5) {
+    starIconSrc = "/images/icons/star_FILL.svg";
+  } else {
+    starIconSrc = "/images/icons/star_FILL.svg"; // デフォルトのアイコン
+  }
+
   return (
     <div className="card bg-[#F2F2F7] lg:w-[400px] md:flex-row mb-12 md:mb-0 shadow-lg min-h-[200px]">
       <div className="card-body ">
@@ -87,12 +107,7 @@ function userCard(
             width={25}
             height={25}
           />
-          <Image
-            src={"/images/icons/star_FILL.svg"}
-            alt="star"
-            width={25}
-            height={25}
-          />
+          <Image src={starIconSrc} alt="star" width={25} height={25} />
         </div>
       </div>
     </div>

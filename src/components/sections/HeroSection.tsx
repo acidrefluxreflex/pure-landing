@@ -12,10 +12,10 @@ export default function HeroSection() {
         }}
       >
         <div className="hero-content ml-64 pr-[430px]">
-          <div className="container max-w-md text-white">
-            <p className="p-2 text-2xl">Sexual Content Blocker</p>
+          <div className="container max-w-md ">
+            <p className="p-2 text-2xl text text-[#F596AA]">Sexual Content Blocker</p>
             <div className="container " style={{ fontFamily: "Futura" }}>
-              <h1 className="text-9xl font-medium ">Zeboot</h1>
+              <h1 className="text-9xl font-medium text-white">Zeboot</h1>
             </div>
             <div className="mb-8 px-2 text-lg font-medium">
               <p>
@@ -24,7 +24,7 @@ export default function HeroSection() {
                 filtering out explicit content and ensuring a safer online
                 experience.
               </p>
-              <button className="btn btn-accent text-white my-5">
+              <button className="btn btn-info text-[#1C1C1C] my-5 ">
                 <a href="https://textcheckai.page.link/toapp">Get Clean Life</a>
               </button>
             </div>

@@ -31,9 +31,9 @@ const config: Config = {
 
           neutral: "#0C0C0C",
 
-       
+          systemgray: "#F2F2F7",
 
-          info: "#3ABFF8",
+          info: "#F2F2F7",
 
           success: "#36D399",
 

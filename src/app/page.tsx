@@ -9,7 +9,6 @@ import OverviewSection from "@/components/sections/OverviewSection";
 import GetStartSection from "@/components/sections/GetStartSection";
 import ContactSection from "@/components/sections/ContactSection";
 
-
 export const metadata: Metadata = {
   title: "Zeboot",
   description: "Block Sexual Content on the Web",
@@ -21,11 +20,12 @@ export default function Home() {
       <HeroSection />
       <div className="lg:max-w-7xl md:max-w-3xl mx-auto px-4 sm:px-6 md:px-8">
         <OverviewSection />
-        <StrengthsSection />
-        <FeatureSection />
-        <GetStartSection />
-        <TestimonialSection />
         <FAQSection />
+        <TestimonialSection />
+        <FeatureSection />
+        <StrengthsSection />
+        <GetStartSection />
+       
         <ContactSection />
       </div>
     </main>

@@ -9,7 +9,7 @@ export default function FAQSection() {
         </h2>
 
         <div id="collapse">
-          {questionCell("Is my 'private' protected?", "Of course. The filter is designed to work completely offline and there are no tracking ads in the app.")}
+          {questionCell("Is my &apos;private&apos; protected?", "Of course. The filter is designed to work completely offline and there are no tracking ads in the app.")}
           {questionCell("I find it hard to tolerate porn.", "We can offer you new solutions. Frankly speaking, you are making progress just by opening this page. If you are not sure, download and try first.")}
           {questionCell("Does it address my sexuality?", "Zeboot is committed to diversity and keeps track of a wide range of content. If this does not meet your requirements, you can still customise your filter. Of course, requests for filters are also welcome!")}
         </div>

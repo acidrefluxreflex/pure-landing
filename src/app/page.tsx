@@ -12,6 +12,21 @@ import ContactSection from "@/components/sections/ContactSection";
 export const metadata: Metadata = {
   title: "Zeboot",
   description: "Block Sexual Content on the Web",
+  openGraph: {
+    title: "Zeboot",
+    description: "Block Sexual Content on the Web",
+    url: "https://eveki.net",
+    siteName: "zeboot.net",
+    images: [
+      {
+        url: "https://eveki.net/_next/image?url=%2Fimages%2FforTwitter.jpg&w=12000&q=75",
+        width: 1200,
+        height: 600,
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export default function Home() {
@@ -25,7 +40,6 @@ export default function Home() {
         <FeatureSection />
         <StrengthsSection />
         <GetStartSection />
-       
         <ContactSection />
       </div>
     </main>

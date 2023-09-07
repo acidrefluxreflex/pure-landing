@@ -46,7 +46,6 @@ export default function StrengthsSection() {
       {contentItems.map((item, index) => (
         <div key={index} className="p-4">
           <div className="flex items-center  my-3 ">
-    
             <Image
               src={item.icon}
               alt={`Icon for ${item.title}`}
@@ -54,7 +53,7 @@ export default function StrengthsSection() {
               width={100}
               height={100}
             />
-          
+
             <h2 className="lg:text-xl text-md font-semibold  ml-2 flex items-center">
               {" "}
               {/* Added 'flex' and 'items-center' class */}

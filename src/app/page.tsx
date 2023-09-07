@@ -15,11 +15,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Zeboot",
     description: "Block Sexual Content on the Web",
-    url: "https://eveki.net",
+    url: "https://zeboot.net",
     siteName: "zeboot.net",
     images: [
       {
-        url: "https://eveki.net/_next/image?url=%2Fimages%2FforTwitter.jpg&w=12000&q=75",
+        url: "https://zeboot.net/_next/image?url=%2Fimages%2FSNS%2FZeboot.webp&w=12000&q=75",
         width: 1200,
         height: 600,
       },

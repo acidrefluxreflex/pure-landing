@@ -30,6 +30,11 @@ export const metadata: Metadata = {
 };
 
 export default function Home() {
+
+
+
+  
+
   return (
     <main className="flex min-h-screen flex-col items-center justify-between bg-white ">
       <HeroSection />
@@ -44,4 +49,7 @@ export default function Home() {
       </div>
     </main>
   );
+
+
+
 }

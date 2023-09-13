@@ -13,7 +13,7 @@ export default function HeroSection() {
         id="DESKTOP"
         className="hero hidden min-h-screen flex-row justify-start text-left text-neutral-content lg:flex"
         style={{
-          backgroundImage: "url(/images/landing/HeroBack.jpg)",
+          backgroundImage: "url(/images/landing/HeroBack.webp)",
           width: "100%",
         }}
       >

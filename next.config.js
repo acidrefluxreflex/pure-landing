@@ -9,6 +9,11 @@ const nextConfig = {
         hostname: "via.placeholder.com",
         port: "",
       },
+      {
+        protocol: 'https',
+        hostname: 'images.microcms-assets.io',
+        port: '',
+      },
     ],
   },
 

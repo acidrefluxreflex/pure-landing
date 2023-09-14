@@ -51,7 +51,6 @@ export default function Footer() {
       */}
       <footer className="footer px-10 py-4 border-t bg-base-200 text-base-content border-base-300">
         <div className="items-center grid-flow-col">
-      
           <p>
             Zeboot <br />
             Copyright © 2023 - All right reserved

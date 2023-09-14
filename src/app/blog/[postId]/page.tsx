@@ -69,12 +69,12 @@ export default async function StaticDetailPage({
 }) {
   const post = await getDetail(postId);
 
-  const createdAt = dayjs(post.createdAt).format("YYYY年MM月DD日");
+  const createdAt = dayjs(post.createdAt).format("YYYY-MM-DD");
 
   // ページの生成された時間を取得
 
   const proseSetting: string =
-    "prose  text-black prose-h1:text-black prose-h2:text-black prose-a:text-blue-500 prose-strong:text-blue-500 prose-strong:font-bold prose-h2:border-b-2  prose-h2:text-3xl";
+    "prose text-black prose-h1:text-black prose-h2:text-black prose-a:text-blue-500 prose-strong:text-blue-500 prose-strong:font-bold prose-h2:border-b-2  prose-h2:text-3xl";
 
   if (!post) {
     notFound();
@@ -99,7 +99,7 @@ export default async function StaticDetailPage({
             )}
           </div>
           <div
-            className="breadcrumbs text-sm"
+            className="breadcrumbs text-sm py-5"
             itemScope
             itemType="https://schema.org/BreadcrumbList"
           >
@@ -110,7 +110,7 @@ export default async function StaticDetailPage({
                 itemType="https://schema.org/ListItem"
               >
                 <Link href="/blog" itemProp="item">
-                  <p itemProp="name">ブログ</p>
+                  <p itemProp="name">Blog</p>
                 </Link>
                 <meta itemProp="position" content="1" />
               </li>

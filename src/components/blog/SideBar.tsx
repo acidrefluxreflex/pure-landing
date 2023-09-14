@@ -7,7 +7,7 @@ const SideElement: React.FC = () => {
       <a href="https://textcheckai.page.link/toapp">
         <Image
           className="my-8  justify-items-center rounded-lg"
-          src="/images/appBanner.webp"
+          src="/images/blog/appBanner.webp"
           height={300}
           width={300}
           alt="Eveki 会話AI"
@@ -16,7 +16,7 @@ const SideElement: React.FC = () => {
       <a href="https://note.com/izumo092">
         <Image
           className="my-8 rounded-lg"
-          src="/images/noteBanner.webp"
+          src="/images/blog/noteBanner.webp"
           height={90}
           width={300}
           alt="Eveki 会話AI"
@@ -25,7 +25,7 @@ const SideElement: React.FC = () => {
       <a href="https://instagram.com/chat_ai_eveki?igshid=NTc4MTIwNjQ2YQ==">
         <Image
           className="my-8 rounded-lg"
-          src="/images/instaBanner.webp"
+          src="/images/blog/instaBanner.webp"
           height={90}
           width={300}
           alt="Eveki 会話AI"

@@ -1,10 +1,10 @@
-import Link from 'next/link';
+import Link from "next/link";
 
-const Pagination: React.FC<{ totalCount: number }> = ({ totalCount } ) => {
+const Pagination: React.FC<{ totalCount: number }> = ({ totalCount }) => {
   const PER_PAGE = 5;
 
   const range = (start: any, end: any) =>
-        [...Array(end - start + 1)].map((_, i) => start + i)
+    [...Array(end - start + 1)].map((_, i) => start + i);
 
   return (
     <ul>
@@ -17,4 +17,4 @@ const Pagination: React.FC<{ totalCount: number }> = ({ totalCount } ) => {
   );
 };
 
-export default Pagination
+export default Pagination;

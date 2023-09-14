@@ -1,8 +1,7 @@
 export default function Head() {
-
-    function addProductJsonLd() {
-        return {
-          __html: `{
+  function addProductJsonLd() {
+    return {
+      __html: `{
             "@context": "http://schema.org",
             "@type": "SoftwareApplication",
             "name": "Zeboot:Block Sexual Content",
@@ -12,17 +11,16 @@ export default function Head() {
             "operatingSystem": "iOS"
           }
       `,
-        };
-      }
-
+    };
+  }
 
   return (
     <>
-       <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={addProductJsonLd()}
-          key="product-jsonld"
-        />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={addProductJsonLd()}
+        key="product-jsonld"
+      />
       <meta content="width=device-width, initial-scale=1" name="viewport" />
       <link rel="icon" href="/favicon.ico" />
     </>

@@ -12,7 +12,7 @@ export default async function StaticPage() {
   }
 
   return (
-    <div className="max-w-2xl min-h-screen">
+    <div className="max-w-2xl bg-white min-h-screen">
       <div className="max-w-2xl pl-8">
         {contents.map((post) => {
           return (

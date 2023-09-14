@@ -9,7 +9,7 @@ import ja from "dayjs/locale/ja";
 dayjs.locale(ja);
 
 const BlogPost: React.FC<{ post: Blog }> = ({ post }) => {
-  const createdAt = dayjs(post.createdAt).format("YYYY年MM月DD日");
+  const createdAt = dayjs(post.createdAt).format("YYYY-MM-DD");
 
   return (
     <div className="max-w-2xl flex flex-col overflow-hidden bg-white  py-11  sm:flex-row">
@@ -27,20 +27,24 @@ const BlogPost: React.FC<{ post: Blog }> = ({ post }) => {
           <div className="h-20 w-20 bg-gray-200"></div> // プレースホルダーとして表示する要素
         )}
       </div>
-      <div  id="TEXT" className="  min-h-[120px] flex flex-col content-between justify-between px-6 sm:w-2/3">
-     
-          <Link href={`/blog/${post.id}`} className="mb-2 text-2xl font-bold">
-            {post.title}
-          </Link>
-      
+      <div
+        id="TEXT"
+        className="  min-h-[120px] flex flex-col content-between justify-between px-6 sm:w-2/3"
+      >
+        <Link href={`/blog/${post.id}`} className="mb-2 text-2xl font-bold">
+          {post.title}
+        </Link>
+
         <div className=" text-gray-600">
           {post.category ? (
-            <p className="badge"><Link
-            href="/blog/category/[categoryId]"
-            as={`/blog/category/${post.category?.id ?? ""}`}
-          >
-            {post.category?.name ?? ""}
-          </Link></p>
+            <p className="badge">
+              <Link
+                href="/blog/category/[categoryId]"
+                as={`/blog/category/${post.category?.id ?? ""}`}
+              >
+                {post.category?.name ?? ""}
+              </Link>
+            </p>
           ) : (
             <div></div>
           )}

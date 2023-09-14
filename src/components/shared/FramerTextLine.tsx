@@ -1,5 +1,4 @@
-
-"use client"
+"use client";
 import { useRef } from "react";
 import {
   motion,
@@ -63,7 +62,7 @@ function ParallaxText({ children, baseVelocity = 100 }: ParallaxProps) {
    * dynamically generated number of children.
    */
   return (
-    <div className="parallax" style={{ fontFamily: "Futura" }} >
+    <div className="parallax" style={{ fontFamily: "Futura" }}>
       <motion.div className="scroller text-xl" style={{ x }}>
         <span>{children} </span>
         <span>{children} </span>

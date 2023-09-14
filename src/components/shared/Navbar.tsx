@@ -1,7 +1,6 @@
 import Link from "next/link";
 import React from "react";
 const Navbar: React.FC = () => {
-
   return (
     <div
       className={`fixed top-0 z-40 max-w-full border-solid   bg-[#1C1C1C] bg-opacity-80 drop-shadow-2xl backdrop-blur-lg backdrop-filter text-[white]  navbar items-center transition-all duration-500 ease-in-out`}
@@ -9,7 +8,7 @@ const Navbar: React.FC = () => {
       <div className="m-0 flex-1 px-1 pt-1">
         <div style={{ fontFamily: "Futura" }}>
           <Link href="/" className="ml-3 lg:text-3xl text-xl font-medium ">
-          Zeboot
+            Zeboot
           </Link>
         </div>
       </div>

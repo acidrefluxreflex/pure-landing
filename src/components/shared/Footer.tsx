@@ -52,11 +52,11 @@ export default function Footer() {
       <footer className="footer px-10 py-4 border-t bg-base-200 text-base-content border-base-300">
         <div className="items-center grid-flow-col">
           <p>
-          <div style={{ fontFamily: "Futura" }}>
-          <Link href="/" className="lg:text-3xl text-xl font-medium ">
-            Zeboot
-          </Link>
-        </div>
+            <div style={{ fontFamily: "Futura" }}>
+              <Link href="/" className="lg:text-3xl text-xl font-medium ">
+                Zeboot
+              </Link>
+            </div>
             Copyright © 2023 - All right reserved
           </p>
         </div>
